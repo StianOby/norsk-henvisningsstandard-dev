@@ -116,7 +116,7 @@
     "abstract": "Reference for a preliminary ruling: Giudice conciliatore di Milano - Italy",
     "authority": "ECJ",
     "language": "en",
-    "number": "Case 6-64",
+    "number": "Case 6/64",
     "title": "Flaminio Costa v ENEL",
     "URL": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:61964CJ0006",
     "accessed": {
@@ -134,6 +134,44 @@
           "1964",
           7,
           15
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "2VIC7UWT",
+    "type": "legal_case",
+    "authority": "International Court of Justice",
+    "language": "English",
+    "note": "ICJ, Right to Strike Under ILO Convention No. 87 [2026]",
+    "number": "General List No. 191",
+    "title": "Right to Strike Under ILO Convention No. 87",
+    "URL": "https://www.icj-cij.org/sites/default/files/case-related/191/191-20260521-adv-01-00-en.pdf",
+    "author": [
+      {
+        "family": "ICJ",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          21
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          21
         ]
       ]
     },
@@ -205,6 +243,32 @@
       "Forarbeider"
     ],
     "_dev": false
+  },
+  {
+    "id": "4HQRSV6T",
+    "type": "legal_case",
+    "abstract": "The Court found that the building at 42 avenue Foch in Paris had never acquired the status of “premises of the mission” within the meaning of Article 1 (i) of the Vienna Convention on Diplomatic Relations and that France had not breached its obligations under that Convention.",
+    "authority": "International Court of Justice",
+    "title": "Immunities and Criminal Proceedings (Equatorial Guinea v. France)",
+    "author": [
+      {
+        "family": "ICJ",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          12,
+          11
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
   },
   {
     "id": "5L32DCX2",
@@ -441,6 +505,43 @@
       "Forarbeider"
     ],
     "_dev": false
+  },
+  {
+    "id": "9BPBP5R6",
+    "type": "legal_case",
+    "authority": "International Court of Justice",
+    "language": "English",
+    "number": "General List No. 172",
+    "title": "Application of the International Convention on the Elimination of All Forms of Racial Discrimination (Qatar v. United Arab Emirates)",
+    "URL": "https://www.icj-cij.org/public/files/case-related/172/172-20210204-JUD-01-00-EN.pdf",
+    "author": [
+      {
+        "family": "ICJ",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          31
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          2,
+          4
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
   },
   {
     "id": "9J5TC9NS",
@@ -735,6 +836,36 @@
     "_dev": false
   },
   {
+    "id": "BGQGM5UH",
+    "type": "legal_case",
+    "abstract": "Appeal – Common foreign and security policy (CFSP) – Joint Action 2008/124/CFSP – European Union Rule of Law Mission in Kosovo (Eulex Kosovo) – Action for damages – Damage allegedly suffered as a result of various acts and omissions by the Council of the European Union, the European Commission and the European External Action Service (EEAS) in the implementation of that joint action – Insufficient investigation of the torture, disappearance and killing of persons – Jurisdiction of the Court of Justice of the European Union to rule on that action – Last sentence of the second subparagraph of Article 24(1) TEU – Article 275 TFEU",
+    "authority": "Court of Justice of the European Union",
+    "language": "English",
+    "note": "Joined Cases C‑29/22 P and C‑44/22 P KS and KD v. Council et.al. [2024]",
+    "shortTitle": "KS & KD v. Council et.al.",
+    "title": "KS & KD v. Council et.al.",
+    "title-short": "KS & KD v. Council et.al.",
+    "author": [
+      {
+        "family": "ECJ (Grand Chamber)",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          10
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "BLSA8DTS",
     "type": "legislation",
     "container-title": "Lov",
@@ -881,6 +1012,44 @@
     "_dev": false
   },
   {
+    "id": "HKKZ7GZE",
+    "type": "legal_case",
+    "authority": "European Court of Human Rights",
+    "note": "Bosphorus Airways v. Ireland (dec.), no. 45036/98 (2001)",
+    "shortTitle": "Bosphorus",
+    "title": "Bosphorus Hava Yolları Turizm ve Ticaret Anonim Şirketi v. Ireland (Admissibility)",
+    "title-short": "Bosphorus",
+    "URL": "http://cmiskp.echr.coe.int/tkp197/viewhbkm.asp?sessionId=67450645&skin=hudoc-en&action=html&table=F69A27FD8FB86142BF01C1166DEA398649&key=27842&highlight=",
+    "author": [
+      {
+        "family": "ECtHR (Fourth section)",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          4
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          9,
+          13
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "HRGKCNTB",
     "type": "bill",
     "authority": "Stortinget",
@@ -970,6 +1139,35 @@
     "_dev": false
   },
   {
+    "id": "J5C9AUW8",
+    "type": "legal_case",
+    "note": "Handyside v. UK [PC], no. 5493/72 (1976)",
+    "title": "Handyside v. UK",
+    "URL": "http://cmiskp.echr.coe.int/tkp197/viewprof.asp?sessionId=83796579&skin=hudoc-en&portal=hbkm&item=1&highlight=5493/72",
+    "accessed": {
+      "date-parts": [
+        [
+          2011,
+          12,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1976,
+          12,
+          7
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "JM26VVLH",
     "type": "post-weblog",
     "abstract": "Velkommen til nettsiden til Zotero-stilen “Norsk henvisningsstandard for rettsvitenskapelige tekster“, som vedlikeholdes av Stian Øby Johansen ved Universitetet i Oslo. Stilen er laget slik at den skal fungere med begge målformer (bokmål/nynorsk), til tross for at av tekniske grunner må stå bokmål i stilens tittel i Zoteros stilbibliotek. Den er basert på Veiledning for henvisning i juridiske tekster (februar 2019).\n\nPå denne siden finner dere informasjon om hvordan man kan installere stilen, hvilke kilder den støtter, lenke til et delt Zotero-bibliotek med eksempelkilder, samt informasjon om utvikling og hvordan man kan melde inn feil/unøyaktigheter.",
@@ -1007,6 +1205,138 @@
     "_dev": false
   },
   {
+    "id": "JXE8TJ6Q",
+    "type": "legal_case",
+    "authority": "European Commission of Human Rights",
+    "note": "X v. Germany (dec.), no 235/56 (1958)",
+    "number": "235/56",
+    "title": "X v. Germany",
+    "author": [
+      {
+        "family": "EComHR",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1958,
+          6,
+          10
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "K2VIIRXM",
+    "type": "broadcast",
+    "abstract": "In this presentation, the way in which lawyers advocate before the International Court of Justice, throughout each phase of a proceeding, is examined, from the different perspectives of civil (francophone) and common (anglophone) lawyers. The presentation will cover all aspects of presenting and handling a case: issues of strategy and procedure, written and oral pleadings, and the compiling and presentation of evidence, including by fact witnesses and experts. It will also consider ways in which the Court is modernizing, and is likely to further change its approach, in our generation. The presentation will draw upon the speakers’ extensive experience as junior counsel before the ICJ, in more than 10 recent and pending cases.",
+    "collection-title": "Public International Law Discussion Group (Part II)",
+    "dimensions": "00:44:14",
+    "medium": "mp3",
+    "note": "issued: 2017-03-14",
+    "title": "Advocacy before the International Court of Justice",
+    "URL": "http://podcasts.ox.ac.uk/advocacy-international-court-justice",
+    "guest": [
+      {
+        "family": "Samson",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Parlett",
+        "given": "Kate"
+      }
+    ],
+    "author": [
+      {
+        "family": "University of Oxford",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          27
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "KJEHLEZ4",
+    "type": "legal_case",
+    "abstract": "References for a preliminary ruling – Electronic commerce – Directive 2000/31/EC – Information society services – Article 2(h) – Coordinated field – Article 3 – Restriction on the free movement of information society services from another Member State – Derogation – Article 14 – Hosting – Article 15 – No general monitoring obligations – Electronic service to access pornographic content – National legislation prohibiting the provision of such content to minors and requiring the provider to put in place an age verification system – Articles 1 and 24 of the Charter of Fundamental Rights of the European Union – Electronic driving assistance or geolocation navigation service – National legislation prohibiting the provision of pornographic content to minors – National legislation prohibiting the rebroadcasting of information concerning certain roadside checks",
+    "authority": "Court of Justice of the European Union",
+    "language": "English",
+    "number": "Joined Cases C-188/24 and C-190/24",
+    "shortTitle": "WebGroup",
+    "title": "WebGroup Czech Republic, a.s. and Others v Ministre de la Culture and Others",
+    "title-short": "WebGroup",
+    "author": [
+      {
+        "family": "ECJ (Grand Chamber)",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          6,
+          16
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "KLNWVUWN",
+    "type": "entry-encyclopedia",
+    "container-title": "Karnov lovkommentarer",
+    "title": "Karnov-note 2 til menneskerettsloven § 2",
+    "URL": "https://lovdata.no/pro/COMMENT/karnov/1999-05-21-30_p2.n2/7",
+    "author": [
+      {
+        "family": "Emberland",
+        "given": "Marius"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          1
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          9
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "KUU5JKUC",
     "type": "legal_case",
     "abstract": "Reference for a preliminary ruling — Services in the internal market — Directive 2006/123/EC — Scope — Article 2(2)(c) — Exclusion of electronic communications services and networks — Article 4(1) — Concept of ‘service’ — Retail trade in goods — Chapter III — Freedom of establishment of service providers — Applicability in purely internal situations — Article 15 — Requirements to be evaluated — Territorial restriction — Zoning plan prohibiting the activity of retail trade in goods other than bulky goods in geographical zones situated outside the city centre — Protection of the urban environment — Authorisation of electronic communications services and networks — Directive 2002/20/EC — Financial payments attached to rights to install facilities for a public electronic communications network",
@@ -1030,6 +1360,35 @@
           "2018",
           1,
           30
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "LJ2SKGGL",
+    "type": "legal_case",
+    "authority": "EFTA Court",
+    "language": "English",
+    "number": "E-28/25",
+    "shortTitle": "Skatturinn",
+    "title": "Iceland Revenue and Customs (Skatturinn) v ADVEL Attorneys (ADVEL lögmenn ehf.)",
+    "title-short": "Skatturinn",
+    "author": [
+      {
+        "family": "EFTA Court",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
         ]
       ]
     },
@@ -1188,6 +1547,44 @@
     "_dev": false
   },
   {
+    "id": "P8KS3TUZ",
+    "type": "entry-encyclopedia",
+    "abstract": "Sovereignty — Jurisdiction of states, passive personality principle — Jurisdiction of states, protective principle — Jurisdiction of states, universality principle — Jurisdiction of states, conflicts — Customary international law — Comity — State practice — Immunity from jurisdiction, states",
+    "container-title": "Max Planck Encyclopedia of Public International Law",
+    "ISBN": "978-0-19-923169-0",
+    "language": "English",
+    "publisher": "OUP",
+    "title": "Jurisdiction of States",
+    "URL": "https://opil.ouplaw.com/display/10.1093/law:epil/9780199231690/law-9780199231690-e1436",
+    "author": [
+      {
+        "family": "Oxman",
+        "given": "Bernard H"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          11
+        ]
+      ]
+    },
+    "_folders": [
+      "Litteratur"
+    ],
+    "_dev": false
+  },
+  {
     "id": "PNRBL9DC",
     "type": "legislation",
     "container-title": "Forskrift",
@@ -1311,6 +1708,42 @@
     "_dev": false
   },
   {
+    "id": "RFC36D7L",
+    "type": "legal_case",
+    "authority": "European Court of Human Rights",
+    "language": "eng",
+    "title": "Decision on the Competence of the Court to Give an Advisory Opinion Under Article 29 of the Oviedo Convention",
+    "URL": "https://hudoc.echr.coe.int/eng?i=003-7117959-9642022",
+    "author": [
+      {
+        "family": "ECtHR (Grand Chamber)",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          24
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          15
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "RY89UG3D",
     "type": "bill",
     "authority": "Odelstinget",
@@ -1398,6 +1831,76 @@
     "_dev": false
   },
   {
+    "id": "THBYAUDI",
+    "type": "legal_case",
+    "abstract": "Article 3 EEA – Article 7 EEA – Form and method of implementation of directives – Directive 2004/38/EC – Free movement of EEA nationals – Restrictions on right of entry – Procedural safeguards\n\nRequest for an Advisory Opinion from the EFTA Court by Hæstiréttur Íslands received on 6 December 2012 in the case of Jan Anfinn Wahl v the Icelandic State.",
+    "authority": "EFTA Court",
+    "language": "English",
+    "note": "E-15/12 Wahl [2013]",
+    "number": "E-15/12",
+    "shortTitle": "Wahl v. Iceland",
+    "title": "Jan Anfinn Wahl v. Iceland",
+    "title-short": "Wahl v. Iceland",
+    "URL": "http://www.eftacourt.int/uploads/tx_nvcases/15_12_Judgment_EN_01.pdf",
+    "author": [
+      {
+        "family": "EFTA Court",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          28
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          7,
+          22
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "TMGYA7PG",
+    "type": "legal_case",
+    "authority": "EFTA Court",
+    "language": "English",
+    "number": "E-1/94",
+    "shortTitle": "Restamark",
+    "title": "Ravintoloitsijain Liiton Kustannus Oy Restamark",
+    "title-short": "Restamark",
+    "author": [
+      {
+        "family": "EFTA Court",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          12,
+          16
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "TRY9LLHF",
     "type": "legal_case",
     "authority": "Norges Høyesterett",
@@ -1455,6 +1958,43 @@
       "Forarbeider"
     ],
     "_dev": false
+  },
+  {
+    "id": "V9UNU5ET",
+    "type": "legal_case",
+    "authority": "Permanent Court of International Justice",
+    "language": "English",
+    "note": "The Case of the SS Lotus (France v Turkey) (Judgment) PCIJ Rep Series A No 10 (1927)",
+    "title": "The Case of the S.S. Lotus, France v. Turkey, Judgment",
+    "URL": "http://www.worldcourts.com/pcij/eng/decisions/1927.09.07_lotus.htm",
+    "author": [
+      {
+        "family": "PCIJ",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          8
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1927,
+          10,
+          7
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
   },
   {
     "id": "VBBL7JPS",
@@ -1522,6 +2062,54 @@
       "Litteratur"
     ],
     "_dev": false
+  },
+  {
+    "id": "VW876H4G",
+    "type": "broadcast",
+    "abstract": "Møt dagen oppdatert med Nyhetsmorgen! Her får du nyheter og aktuelle gjester.",
+    "container-title": "Nyhetsmorgen",
+    "language": "nb-NO",
+    "publisher": "NRK",
+    "title": "Hva er immunitet?",
+    "URL": "https://radio.nrk.no/serie/nyhetsmorgen/sesong/202602/NPUB32002926#t=1h10m18s",
+    "host": [
+      {
+        "family": "Jåsund",
+        "given": "Birger Kolsrud"
+      },
+      {
+        "family": "Wiik",
+        "given": "Linn"
+      }
+    ],
+    "guest": [
+      {
+        "family": "Johansen",
+        "given": "Stian Øby"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
   },
   {
     "id": "WD8F9UTL",
@@ -1739,6 +2327,35 @@
     "_dev": false
   },
   {
+    "id": "YG4YTYHK",
+    "type": "legal_case",
+    "abstract": "Art 33 • Inter-State application • Multiple, flagrant and unprecedented Convention violations by the respondent State in Ukraine • Downing of flight MH17 • Administrative practices of military attacks on Ukrainian territory and of other acts in occupied areas in Ukraine and in Russian sovereign territory • Repeated violations officially tolerated by the Russian authorities • Drawing of inferences from limited access by independent monitors and external observers • Russian law and legal acts of the “Donetsk People’s Republic” (“DPR”) and the “Lugansk People’s Republic” (“LPR”) and of the Russian occupying authorities not providing a valid legal basis for acts undertaken in Ukraine • General legal basis under international humanitarian law (“IHL”) for taking measures in occupied territory must be reflected in specific legal provisions and appropriate guidance in domestic legal order • Court’s jurisdiction ratione temporis extending no further than 16 September 2022 when the respondent State ceased to be a High Contracting Party to the Convention Art 36 • Twenty-six High Contracting Parties intervening as third parties\n\nArt 35 § 1 • New complaints in application no. 11055/22 under Art 3, 8, 11, 13 and 14, and Art 2 P1 declared admissible\n\nArt 1 • Respondent State’s jurisdiction over areas in eastern Ukraine under separatist control from 26 January 2022 to 16 September 2022 • Respondent State’s jurisdiction over areas under control of Russian armed forces after the invasion on 24 February 2022 • Effective control exercised by the respondent State over such territory by virtue of its control by the Russian armed forces after the invasion • Respondent State’s jurisdiction for complaints concerning military attacks by separatists or the Russian armed forces on Ukrainian territory from 2014 to 2022 • Reality of extensive, strategically planned military attacks carried out with deliberate intention and indisputable effect of assuming authority and control, falling short of effective control, over areas, infrastructure and people in Ukraine wholly at odds with any notion of chaos • Degree of responsibility assumed by the respondent State over individuals affected by such attacks • Russian Federation’s exercise of authority and control over such individuals • Acts and omissions of the Russian armed forces and the armed separatists of the DPR and the LPR attributable to the Russian Federation • Respondent State’s jurisdiction for its authorities’ actions in Russian sovereign territory\n\nArt 32 • Importance of historical context of the Council of Europe • Nature and scale of violence and statements concerning Ukraine’s very right to exist representing a threat to peaceful co-existence within Europe • Respondent State’s disrespect for Council of Europe’s fundamental values • Relationship between Convention and IHL • Duty of harmonious interpretation so far as possible • Court may interpret and assess compliance with IHL where necessary to carry out its role\n\nArt 2 (substantive) • Downing of flight MH17 • Breach of the respondent State’s negative and positive obligations • Unjustified intentional use of force resulting in the downing of the flight and the deprivation of the lives of the civilians on board • Launching of missile from Buk-TELAR in eastern Ukraine in breach of IHL • Launching of missile not lawful act of war and not justified under Art 2 § 2 • Existence of a real and immediate risk to life • Respondent State’s failure to take preventive measures to significantly reduce or eliminate risk posed by Buk-TELAR to civilians travelling in civilian aircraft over eastern Ukraine\n\nArt 2 (procedural) • Downing of flight MH17 • Failure to conduct an effective investigation • Piecemeal inquiries with aim of showing lack of Russian involvement and deflecting responsibility onto Ukraine • Disclosure of inaccurate and fabricated information • Failure to cooperate effectively with the investigation of the international joint investigation team (“JIT”) • Obstructive approach of Russian Federation to attempts to elucidate cause and circumstances of crash • Refusal to execute requests for legal assistance • Material impact of failure to cooperate on ability of JIT to conclude its investigation into involvement of Russian armed forces and senior Russian politicians\n\nArt 13 (+ Art 2) • Downing of flight MH17 • Lack of access to effective remedies in the respondent State for the relatives of the victims of the flight capable of establishing liability of State officials and awarding compensation\n\nArt 3 (substantive) • Downing of flight MH17 • Continuing profound suffering of the next of kin of the victims of the flight amounting to inhuman treatment\n\nArt 2 and 3 (substantive) • Art 1 P1 • Art 8 • Administrative practice of intense and sustained military attacks throughout Ukrainian territory conducted in breach of IHL • Breach of the respondent State’s negative and positive obligations • Indiscriminate and disproportionate military attacks and attacks directed at residential areas and civilian infrastructure resulting in widespread death, injuries, suffering and damage to property and homes • Respondent State’s failure to protect civilian lives and well-being when conducting sieges\n\nArt 2 (substantive) • Administrative practice of extrajudicial killing of civilians and Ukrainian military personnel hors de combat in occupied territory in Ukraine\n\nArt 3 (substantive) • Administrative practice of torture and inhuman and degrading treatment in occupied territory in Ukraine • Torture constituting a coordinated State policy of the Russian Federation in respect of Ukrainian civilians and prisoners of wars (“POWs”) • Widespread and systemic use of rape and sexual violence • Use of rape as a weapon of war an act of extreme atrocity amounting to torture • Inadequate conditions of detention • Suffering of family members of those abducted or disappeared after 24 February 2022 in a context of mass arbitrary detentions and systematic abuse of detainees amounting to inhuman treatment\n\nArt 4 § 2 • Administrative practice of forced labour in occupied territory in Ukraine\n\nArt 5 • Administrative practice of unlawful and arbitrary detention of civilians, without any legal basis and without basic procedural safeguards, in occupied territory in Ukraine\n\nArt 8 • Administrative practice of unjustified transfer and displacement of civilians in occupied territory in Ukraine and unjustified application of filtration measures • Displacement of civilians by Russian occupying authorities did not qualify as lawful evacuation under IHL • Environment of coercion, fear, violence and terror in Ukraine on account of mass human rights violations by Russian Federation substantially responsible for civilians’ decision to flee • Displacement of such civilians amounted to forced displacement\n\nArt 9 • Administrative practice in occupied territory in Ukraine of intimidation, harassment, and persecution of religious groups, aside from the Ukrainian Orthodox Church of the Moscow Patriarchate (“UOC-MP”) • Abduction, ill-treatment and killing of religious leaders • Obligation on religious groups to register • Application of extremism laws against religious communities other than UOC-MP to ban religious organisations, seize religious premises and material and prevent religious worship\n\nArt 10 • Administrative practice in occupied territory in Ukraine of unjustified interference with freedom to receive and impart information and ideas • Intimidation, detention, ill-treatment and killing of journalists • Registration and accreditation obligations on media outlets and journalists • Application of purported laws prohibiting and penalising dissemination of information in support of Ukraine including on social media • Application of terrorism and extremism laws • Excessive and arbitrary effects of measures blocking access to websites and broadcasters in occupied territory\n\nArt 11 • Administrative practice of unjustified interference with right to peaceful assembly • Forcible dispersal of peaceful protests in occupied territory in Ukraine in March and April 2022\n\nArt 1 P1 • Art 8 • Administrative practice of destruction, looting and expropriation without compensation of the property of civilians and private enterprises and looting of homes and personal possessions, in occupied territory in Ukraine\n\nArt 2 P1 • Administrative practice in occupied territory in Ukraine of suppression of Ukrainian language in schools and of indoctrination in education • Failure to provide for teaching in Ukrainian language amounted to denial of substance of right to education • Views of parents in occupied territory on the history and status of Ukraine attained level of cogency, seriousness, cohesion and importance to be considered “convictions” • Arrangements made after 24 February 2022 for advancing narrative of occupying Power in schools pursued aim of indoctrination\n\nArt 3 (substantive) • Art 5 • Art 8 • Administrative practice of transfer to Russia, and in many cases the adoption there, of Ukrainian children • Overwhelming evidence from shortly before the 2022 invasion of systemic practice of transferring children to Russia and facilitating their adoption there • Continuous sequence of acts between 2014 and 2022 demonstrated beyond reasonable doubt • Russian authorities’ failure to take measures to secure the children’s return and excessive difficulties faced by caregivers seeking reunification • Transfers did not qualify as lawful evacuations under IHL • Automatic imposition of Russian nationality in breach of IHL facilitated adoption of children in Russia • Children’s treatment attained threshold of severity required to engage Art 3 • Children placed in care of hostile occupying State potentially indefinitely and in defiance of international law • Traumatising effect of military operations themselves and separation from caregivers particularly given uncertainty and fear of permanent and forcible separation • Evidence of ill-treatment of some children after their relocation • In exceptional circumstances of case children also deprived of their liberty and security\n\nArt 14 (+ Art 2, 3, 4 § 2, 5, 8, 9, 10, and 11, and Art 1 and 2 P1) • Respondent State’s failure to secure Convention rights and freedoms in occupied territory in Ukraine without discrimination on the grounds of political opinion and national origin\n\nArt 13 (+ Art 2, 3, 4 § 2, 5, 8, 9, 10, 11 and 14, and Art 1 and 2 P1) • Failure to investigate credible allegations of administrative practices or to provide any redress\n\nArt 38 • Non-compliance with obligation to furnish all necessary facilities for examination of case • Deplorable failure of respondent State to abide by fundamental duty of cooperation with Court inevitably affected Court’s examination of case\n\nArt 46 • Execution of judgment • Individual measures to be taken without delay • Respondent State to release or safely return all persons deprived of their liberty on Ukrainian territory under occupation by the Russian and Russian-controlled forces in breach of Art 5 before 16 September 2022 and still in the Russian authorities’ custody • Respondent State to cooperate in establishing an international and independent mechanism to secure, in the children’s best interests, the identification of all children transferred from Ukraine to Russia and Russian-controlled territory before 16 September 2022, the restoration of contact and the safe reunification of those children with their surviving family members or legal guardians\n\nArt 41 • Just satisfaction • Adjourned • Importance of having due regard to other international developments when making any future award for just satisfaction • Application no. 28525/20 disjoined from remainder of the case for purposes of further proceedings only",
+    "authority": "European Court of Human Rights",
+    "language": "English",
+    "note": "ECtHR, Ukraine and the Netherlands v. Russia [GC], nos. 8019/16; 43800/14; 28525/20; 11055/22 (2025)\n\nECLI:CE:ECHR:2025:0709JUD000801916",
+    "number": "8019/16; 43800/14; 28525/20; 11055/22",
+    "title": "Ukraine and the Netherlands v. Russia",
+    "author": [
+      {
+        "family": "ECtHR (Grand Chamber)",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          7
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
+  },
+  {
     "id": "Z4VJNBH7",
     "type": "legislation",
     "language": "English",
@@ -1829,5 +2446,52 @@
       "Traktater"
     ],
     "_dev": false
+  },
+  {
+    "id": "ZV2PU36D",
+    "type": "broadcast",
+    "abstract": "It's just before midnight on 10 July 1985. The Port of Auckland, New Zealand. \n\nThe Rainbow Warrior, a Greenpeace anti-nuclear protest ship, is sitting at its dock when two massive explosions tear through its hull. \n\nA man is killed onboard. \n\nWhat follows is one of the most bizarre and sinister of diplomatic incidents. \n\nThe hunt for his killers uncovers an international network of spies, and exposes a highly-coordinated attack planned from the highest echelons of world power.",
+    "collection-title": "Just cases",
+    "dimensions": "36:02",
+    "language": "English",
+    "medium": "mp3",
+    "number": "10",
+    "title": "The Bombing of the Rainbow Warrior",
+    "URL": "https://www.justcasespodcast.com/episode-10-the-bombing-of-the-rainbow-warrior",
+    "author": [
+      {
+        "family": "Castan",
+        "given": "Melissa"
+      },
+      {
+        "family": "Pattison",
+        "given": "James"
+      }
+    ],
+    "contributor": [
+      {
+        "family": "Allain",
+        "given": "Jean"
+      }
+    ],
+    "guest": [
+      {
+        "family": "Guilfoyle",
+        "given": "Douglas"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          23
+        ]
+      ]
+    },
+    "_folders": [
+      "Under utvikling"
+    ],
+    "_dev": true
   }
 ]
