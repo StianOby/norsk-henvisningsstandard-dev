@@ -1302,41 +1302,6 @@
     "_dev": true
   },
   {
-    "id": "KLNWVUWN",
-    "type": "entry-encyclopedia",
-    "container-title": "Karnov lovkommentarer",
-    "title": "Karnov-note 2 til menneskerettsloven § 2",
-    "URL": "https://lovdata.no/pro/COMMENT/karnov/1999-05-21-30_p2.n2/7",
-    "author": [
-      {
-        "family": "Emberland",
-        "given": "Marius"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          2,
-          1
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          12,
-          9
-        ]
-      ]
-    },
-    "_folders": [
-      "Under utvikling"
-    ],
-    "_dev": true
-  },
-  {
     "id": "KUU5JKUC",
     "type": "legal_case",
     "abstract": "Reference for a preliminary ruling — Services in the internal market — Directive 2006/123/EC — Scope — Article 2(2)(c) — Exclusion of electronic communications services and networks — Article 4(1) — Concept of ‘service’ — Retail trade in goods — Chapter III — Freedom of establishment of service providers — Applicability in purely internal situations — Article 15 — Requirements to be evaluated — Territorial restriction — Zoning plan prohibiting the activity of retail trade in goods other than bulky goods in geographical zones situated outside the city centre — Protection of the urban environment — Authorisation of electronic communications services and networks — Directive 2002/20/EC — Financial payments attached to rights to install facilities for a public electronic communications network",
@@ -1481,6 +1446,73 @@
     },
     "_folders": [
       "Forarbeider"
+    ],
+    "_dev": false
+  },
+  {
+    "id": "N57XBGBK",
+    "type": "entry-encyclopedia",
+    "archive": "Lovdata Pro",
+    "container-title": "Karnov lovkommentarer",
+    "title": "Menneskerettsloven",
+    "URL": "https://lovdata.no/pro/lov/1999-05-21-30",
+    "author": [
+      {
+        "family": "Emberland",
+        "given": "Marius"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          1
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          9
+        ]
+      ]
+    },
+    "_folders": [
+      "Litteratur"
+    ],
+    "_dev": false
+  },
+  {
+    "id": "NG2N7D97",
+    "type": "entry-encyclopedia",
+    "archive": "Rettsdata.no",
+    "container-title": "Norsk lovkommentar",
+    "title": "Forvaltningsloven",
+    "URL": "https://min.rettsdata.no/rettskilder/lover/lov-1967-02-10",
+    "author": [
+      {
+        "family": "Bernt",
+        "given": "Jan Fridthjof"
+      },
+      {
+        "family": "Tøssebro",
+        "given": "Henriette Nilsson"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ]
+    },
+    "_folders": [
+      "Litteratur"
     ],
     "_dev": false
   },

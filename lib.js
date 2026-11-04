@@ -51,6 +51,7 @@ function loadItems() {
 const INTERVENING = { id: '__intervening__', type: 'book', title: 'Mellomliggende verk' };
 
 function locatorFor(item) {
+  if (item.type === 'entry-encyclopedia' && item.archive) return { locator: '2, note 2', label: 'section' };
   if (item.type === 'legal_case') return { locator: '19', label: 'paragraph' };
   if (item.type === 'legislation' || item.type === 'regulation') return { locator: '3', label: 'section' };
   if (item.type === 'treaty') return { locator: '3', label: 'article-locator' };
