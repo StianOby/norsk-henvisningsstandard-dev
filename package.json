@@ -1,0 +1,14 @@
+{
+  "name": "norsk-tests",
+  "private": true,
+  "description": "Local regression tests for the Norsk henvisningsstandard CSL styles",
+  "scripts": {
+    "fetch": "node fetch.js",
+    "test": "node test.js",
+    "update": "node test.js --update",
+    "dev": "node test.js --dev"
+  },
+  "dependencies": {
+    "citeproc": "2.4.63"
+  }
+}
