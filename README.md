@@ -21,9 +21,9 @@ Each supported item is rendered in both variants, in bokmål and nynorsk, as: fi
 note and ibid (each with and without a locator), and bibliography entry. All supported items are
 also rendered as one bibliography, which covers sort order.
 
-Items in the Zotero folder "Under utvikling" are excluded from the snapshots. To promote an item
-when support is ready, move it to another folder in Zotero, then run `npm run fetch` and
-`npm run update`.
+Items in the Zotero folder "Under utvikling" and its subfolders are excluded from the snapshots.
+To promote an item when support is ready, move it to another folder in Zotero, then run
+`npm run fetch` and `npm run update`.
 
 ## Workflow
 

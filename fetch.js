@@ -27,6 +27,9 @@ async function main() {
 
   const collections = await getAll(`${GROUP}/collections?format=json`);
   const names = Object.fromEntries(collections.map((c) => [c.key, c.data.name]));
+  const parents = Object.fromEntries(collections.map((c) => [c.key, c.data.parentCollection]));
+  // True for the development folder and for any folder nested below it.
+  const inDev = (key) => Boolean(key) && (names[key] === DEV_COLLECTION || inDev(parents[key]));
   const raw = await getAll(`${GROUP}/items/top?format=json`);
   const csl = await getAll(`${GROUP}/items/top?format=csljson`);
   const cslByKey = Object.fromEntries(csl.map((i) => [i.id.split('/').pop(), i]));
@@ -39,7 +42,7 @@ async function main() {
         ...cslByKey[i.key],
         id: i.key,
         _folders: folders,
-        _dev: folders.includes(DEV_COLLECTION),
+        _dev: i.data.collections.some(inDev),
       };
     })
     .sort((a, b) => a.id.localeCompare(b.id));
