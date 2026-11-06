@@ -722,7 +722,7 @@
   {
     "id": "AWF65DNH",
     "type": "legislation",
-    "container-title": "OJ L",
+    "container-title": "OJ 2004 L",
     "language": "en",
     "page": "77-123",
     "shortTitle": "CRD",
@@ -1048,7 +1048,7 @@
   {
     "id": "G6UK4V4D",
     "type": "legislation",
-    "container-title": "OJ L",
+    "container-title": "OJ 2016 L",
     "language": "en",
     "page": "1-88",
     "shortTitle": "GDPR",
@@ -1628,7 +1628,7 @@
   {
     "id": "NQXR47WY",
     "type": "legislation",
-    "container-title": "EUT 2000 L",
+    "container-title": "OJ 2000 L",
     "language": "en",
     "note": "type: treaty\navailable-date: 1990-06-19",
     "page": "239/19",
@@ -1757,7 +1757,7 @@
   {
     "id": "PZ3RALHT",
     "type": "legislation",
-    "container-title": "OJ L",
+    "container-title": "OJ 2019 L",
     "language": "en",
     "note": "Council Regulation (EU) 2019/1111 of 25 June 2019 on jurisdiction, the recognition and enforcement of decisions in matrimonial matters and the matters of parental responsibility, and on international child abduction (recast) [2019] OJ L178/1",
     "page": "1",
@@ -2136,11 +2136,34 @@
     "_dev": false
   },
   {
+    "id": "UJ6GZ6H8",
+    "type": "legislation",
+    "container-title": "OJ 2011 L",
+    "language": "en",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2011-05-27",
+    "page": "1-12",
+    "title": "Regulation (EU) No 492/2011 of the European Parliament and of the Council of 5 April 2011 on freedom of movement for workers within the Union",
+    "URL": "http://data.europa.eu/eli/reg/2011/492/oj",
+    "volume": "141",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          5
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk (direktiver, forordninger, m.v.)"
+    ],
+    "_dev": true
+  },
+  {
     "id": "UWRNY6G6",
     "type": "legislation",
-    "container-title": "OJ L",
+    "container-title": "OJ 2003 L",
     "language": "en",
-    "note": "available-date: 2003-01-04",
     "page": "1-25",
     "shortTitle": "Regulation 1/2003",
     "title": "Council Regulation (EC) No 1/2003 of 16 December 2002 on the implementation of the rules on competition laid down in Articles 81 and 82 of the Treaty",
@@ -2627,7 +2650,7 @@
   {
     "id": "ZRVR9TTR",
     "type": "legislation",
-    "container-title": "EUT 2001 L",
+    "container-title": "OJ 2001 L",
     "language": "English",
     "note": "type:treaty\navailable-date:2001-01-19",
     "page": "93/40",
