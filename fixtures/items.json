@@ -957,6 +957,41 @@
     "_dev": false
   },
   {
+    "id": "CVRSDV72",
+    "type": "legislation",
+    "container-title": "OJ 2016 L",
+    "language": "en",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2016-05-04",
+    "page": "1-88",
+    "shortTitle": "GDPR",
+    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC",
+    "title-short": "GDPR",
+    "URL": "http://data.europa.eu/eli/reg/2016/679/oj",
+    "volume": "119",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          27
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk (direktiver, forordninger, m.v.)"
+    ],
+    "_dev": true
+  },
+  {
     "id": "DJR25HPZ",
     "type": "bill",
     "authority": "Kongen i statsråd",
@@ -1046,40 +1081,6 @@
     "_dev": false
   },
   {
-    "id": "G6UK4V4D",
-    "type": "legislation",
-    "container-title": "OJ 2016 L",
-    "language": "en",
-    "page": "1-88",
-    "shortTitle": "GDPR",
-    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC",
-    "title-short": "GDPR",
-    "URL": "http://data.europa.eu/eli/reg/2016/679/oj",
-    "volume": "119",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          11,
-          6
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          2016,
-          4,
-          27
-        ]
-      ]
-    },
-    "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
-    ],
-    "_dev": true
-  },
-  {
     "id": "H5PESEI7",
     "type": "legislation",
     "container-title": "OJ L",
@@ -1104,6 +1105,38 @@
           2024,
           6,
           13
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk (direktiver, forordninger, m.v.)"
+    ],
+    "_dev": true
+  },
+  {
+    "id": "HENH9B3B",
+    "type": "legislation",
+    "container-title": "English Special Edition: Series I Volume 1968(II)",
+    "language": "en",
+    "note": "Legislative Body: CONSIL\navailable-date: 1968-10-19",
+    "page": "475-484",
+    "title": "Regulation (EEC) No 1612/68 of the Council of 15 October 1968 on freedom of movement for workers within the Community",
+    "URL": "http://data.europa.eu/eli/reg/1968/1612/oj",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1968,
+          10,
+          15
         ]
       ]
     },
@@ -1176,6 +1209,38 @@
     },
     "_folders": [
       "Forarbeider"
+    ],
+    "_dev": false
+  },
+  {
+    "id": "HXT5JB4G",
+    "type": "legislation",
+    "container-title": "OJ L",
+    "language": "en",
+    "note": "type: treaty\navailable-date: 2026-02-18",
+    "page": "2026/757",
+    "title": "Agreement on the interpretation and application of the Energy Charter Treaty",
+    "URL": "http://data.europa.eu/eli/agree_internation/2026/757/oj",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ]
+    },
+    "_folders": [
+      "Traktater"
     ],
     "_dev": false
   },
@@ -1267,6 +1332,41 @@
       "International rettspraksis - p.t. ikke mulig å støtte"
     ],
     "_dev": true
+  },
+  {
+    "id": "JET6XR5Y",
+    "type": "legislation",
+    "container-title": "OJ 2000 L",
+    "language": "en",
+    "note": "type: treaty\navailable-date: 1990-06-19\nevent-date: 2000-09-22",
+    "page": "19-62",
+    "shortTitle": "Convention implementing the Schengen Agreement",
+    "title": "Convention implementing the Schengen Agreement of 14 June 1985 between the Governments of the States of the Benelux Economic Union, the Federal Republic of Germany and the French Republic on the gradual abolition of checks at their common borders",
+    "title-short": "Convention implementing the Schengen Agreement",
+    "URL": "http://data.europa.eu/eli/convention/2000/922/oj",
+    "volume": "239",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          3,
+          26
+        ]
+      ]
+    },
+    "_folders": [
+      "Traktater"
+    ],
+    "_dev": false
   },
   {
     "id": "JM26VVLH",
@@ -1622,40 +1722,6 @@
     },
     "_folders": [
       "Litteratur"
-    ],
-    "_dev": false
-  },
-  {
-    "id": "NQXR47WY",
-    "type": "legislation",
-    "container-title": "OJ 2000 L",
-    "language": "en",
-    "note": "type: treaty\navailable-date: 1990-06-19",
-    "page": "239/19",
-    "shortTitle": "Convention implementing the Schengen Agreement",
-    "title": "Convention implementing the Schengen Agreement of 14 June 1985 between the Governments of the States of the Benelux Economic Union, the Federal Republic of Germany and the French Republic on the gradual abolition of checks at their common borders",
-    "title-short": "Convention implementing the Schengen Agreement",
-    "URL": "http://data.europa.eu/eli/convention/2000/922/oj",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          6,
-          9
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          1995,
-          3,
-          26
-        ]
-      ]
-    },
-    "_folders": [
-      "Traktater"
     ],
     "_dev": false
   },
@@ -2648,16 +2714,41 @@
     "_dev": false
   },
   {
+    "id": "Z83L9E4X",
+    "type": "legislation",
+    "container-title": "OJ 2000 L",
+    "language": "en",
+    "note": "type: treaty\navailable-date: 1990-11-27\nevent-date: 2000-09-22\nstatus: not in force",
+    "page": "63-68",
+    "title": "The Schengen acquis - Agreement on the Accession of the Italian Republic to the Convention implementing the Schengen Agreement of 14 June 1985 between the Governments of the States of the Benelux Economic Union, the Federal Republic of Germany and the French Republic on the gradual abolition of checks at their common borders signed at Schengen on 19 June 1990",
+    "URL": "http://data.europa.eu/eli/agree_internation/2000/922(2)/oj",
+    "volume": "239",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "_folders": [
+      "Traktater"
+    ],
+    "_dev": false
+  },
+  {
     "id": "ZRVR9TTR",
     "type": "legislation",
     "container-title": "OJ 2001 L",
-    "language": "English",
-    "note": "type:treaty\navailable-date:2001-01-19",
-    "page": "93/40",
+    "language": "en",
+    "note": "type:treaty\navailable-date:2001-01-19\nevent-date: 2001-04-03",
+    "page": "40-47",
     "shortTitle": "Dublin-tilknytningsavtalen",
     "title": "Agreement between the European Community and the Republic of Iceland and the Kingdom of Norway concerning the criteria and mechanisms for establishing the State responsible for examining a request for asylum lodged in a Member State or in Iceland or Norway",
     "title-short": "Dublin-tilknytningsavtalen",
     "URL": "http://data.europa.eu/eli/agree_internation/2001/258/oj",
+    "volume": "93",
     "accessed": {
       "date-parts": [
         [
