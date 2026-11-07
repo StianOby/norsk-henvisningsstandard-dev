@@ -1,5 +1,5 @@
 {
-  "name": "norsk-tests",
+  "name": "norsk-henvisningsstandard-dev",
   "private": true,
   "description": "Local regression tests for the Norsk henvisningsstandard CSL styles",
   "scripts": {

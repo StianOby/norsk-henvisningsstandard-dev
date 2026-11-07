@@ -4,6 +4,10 @@ Regression tests for the two Norsk henvisningsstandard variants. The folder is l
 parent repo's `.git/info/exclude`, so it never shows up in `git status` or in a PR. It has its
 own git repo, which gives snapshot changes a history.
 
+To set it up, clone this repo into the root of a style-variant-builder checkout, as
+`norsk-henvisningsstandard-dev/`, because the scripts read the template and diffs from the parent
+folder. Then add `/norsk-henvisningsstandard-dev/` to that checkout's `.git/info/exclude`.
+
 ## Commands
 
 Run these from this folder, after `npm install`.
