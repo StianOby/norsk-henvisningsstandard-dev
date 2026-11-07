@@ -271,6 +271,41 @@
     "_dev": true
   },
   {
+    "id": "4T7K4T8F",
+    "type": "legislation",
+    "container-title": "EØS-tillegget til EU-tidende 2012",
+    "language": "nb-NO",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2012-01-26",
+    "page": "243-256",
+    "shortTitle": "direktiv 2004/38",
+    "title": "Europaparlaments- og rådsdirektiv 2004/38/EF av 29. april 2004 om unionsborgeres og deres familiemedlemmers rett til å ferdes og oppholde seg fritt på medlemsstatenes territorium",
+    "title-short": "direktiv 2004/38",
+    "URL": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/translated-acts/norwegian/n32004L0038.pdf",
+    "volume": "5",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          4,
+          29
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk"
+    ],
+    "_dev": false
+  },
+  {
     "id": "5L32DCX2",
     "type": "article-journal",
     "abstract": "Responsibility, and in particular attribution of conduct, is one of the most intensely debated issues of public international law in the last couple of decades. In this article I seek to determine whether, how, and when acts or omissions may be attributed both to an international organisation and a member State (dual attribution). My aim is to clarify what dual attribution is, and what it is not. This is done in two steps. First, I (a) define the concept of dual attribution, (b) demonstrate that dual attribution is possible under the current law of international responsibility, and (c) establish a typology of dual attribution. Second, dual attribution is distinguished from three forms of shared responsibility. These are situations of two acts or omissions leading to one injury, derived responsibility, and the notion of piercing the corporate veil of international organisation. I end the article by criticising the disproportionate attention given to dual attribution in legal scholarship, given its limited practical utility.",
@@ -507,6 +542,39 @@
     "_dev": false
   },
   {
+    "id": "984WJGMI",
+    "type": "legislation",
+    "container-title": "EØS-tillegget til EU-tidende 2016",
+    "language": "nn-NO",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2016-08-25",
+    "page": "693-704",
+    "title": "Europaparlaments- og rådsforordning (EU) nr. 492/2011 av 5. april 2011 om fri rørsle for arbeidstakarar innanfor Unionen",
+    "URL": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/translated-acts/norwegian/n32011R0492.pdf",
+    "volume": "47",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          5
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk"
+    ],
+    "_dev": false
+  },
+  {
     "id": "9BPBP5R6",
     "type": "legal_case",
     "authority": "International Court of Justice",
@@ -726,7 +794,7 @@
     "language": "en",
     "page": "77-123",
     "shortTitle": "CRD",
-    "title": "Directive 2004/38/EC of the European Parliament and of the Council of 29 April 2004 on the right of citizens of the Union and their family members to move and reside freely within the territory of the Member States amending Regulation (EEC) No 1612/68 and repealing Directives 64/221/EEC, 68/360/EEC, 72/194/EEC, 73/148/EEC, 75/34/EEC, 75/35/EEC, 90/364/EEC, 90/365/EEC and 93/96/EEC",
+    "title": "Directive 2004/38/EC of the European Parliament and of the Council of 29 April 2004 on the right of citizens of the Union and their family members to move and reside freely within the territory of the Member States",
     "title-short": "CRD",
     "URL": "http://data.europa.eu/eli/dir/2004/38/oj",
     "volume": "158",
@@ -749,9 +817,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "AZBNRMSU",
@@ -900,6 +968,41 @@
     "_dev": true
   },
   {
+    "id": "BIWIS4KJ",
+    "type": "legislation",
+    "container-title": "EØS-tillegget til EU-tidende 2007",
+    "language": "nb-NO",
+    "note": "Legislative Body: CONSIL\navailable-date: 2007-06-07",
+    "page": "354-378",
+    "shortTitle": "forordning 1/2003",
+    "title": "Rådsforordning (EF) nr. 1/2003 av 16. desember 2002 om gjennomføring av konkurransereglene fastsatt i traktatens artikkel 81 og 82",
+    "title-short": "forordning 1/2003",
+    "URL": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/translated-acts/norwegian/n32003R0001.pdf",
+    "volume": "26",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          12,
+          16
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk"
+    ],
+    "_dev": false
+  },
+  {
     "id": "BLSA8DTS",
     "type": "legislation",
     "container-title": "Lov",
@@ -964,7 +1067,7 @@
     "note": "Legislative Body: EP, CONSIL\navailable-date: 2016-05-04",
     "page": "1-88",
     "shortTitle": "GDPR",
-    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC",
+    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data",
     "title-short": "GDPR",
     "URL": "http://data.europa.eu/eli/reg/2016/679/oj",
     "volume": "119",
@@ -987,9 +1090,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "DJR25HPZ",
@@ -1087,7 +1190,7 @@
     "language": "en",
     "page": "2024/1689",
     "shortTitle": "Artificial Intelligence Act",
-    "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828",
+    "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence",
     "title-short": "Artificial Intelligence Act",
     "URL": "http://data.europa.eu/eli/reg/2024/1689/oj",
     "accessed": {
@@ -1109,9 +1212,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "HENH9B3B",
@@ -1141,9 +1244,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "HKKZ7GZE",
@@ -1851,9 +1954,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "Q8RCA3ML",
@@ -2114,6 +2217,41 @@
     "_dev": true
   },
   {
+    "id": "TLJKXKX7",
+    "type": "legislation",
+    "container-title": "EØS-tillegget til EU-tidende 2018",
+    "language": "nb-NO",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2018-07-19",
+    "page": "6-93",
+    "shortTitle": "personvernforordningen",
+    "title": "Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger",
+    "title-short": "personvernforordningen",
+    "URL": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/translated-acts/norwegian/n32016R0679.pdf",
+    "volume": "46",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          27
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk"
+    ],
+    "_dev": false
+  },
+  {
     "id": "TMGYA7PG",
     "type": "legal_case",
     "authority": "EFTA Court",
@@ -2221,9 +2359,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "UWRNY6G6",
@@ -2255,9 +2393,9 @@
       ]
     },
     "_folders": [
-      "EU-regelverk (direktiver, forordninger, m.v.)"
+      "EU-regelverk"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "V9UNU5ET",
