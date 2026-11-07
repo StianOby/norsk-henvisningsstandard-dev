@@ -6,7 +6,8 @@
     "fetch": "node fetch.js",
     "test": "node test.js",
     "update": "node test.js --update",
-    "dev": "node test.js --dev"
+    "dev": "node test.js --dev",
+    "export": "node export-test.js"
   },
   "dependencies": {
     "citeproc": "2.4.63"
