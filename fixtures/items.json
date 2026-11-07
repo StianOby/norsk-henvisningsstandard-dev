@@ -2608,6 +2608,32 @@
     "_dev": false
   },
   {
+    "id": "WMP36D8X",
+    "type": "legislation",
+    "container-title": "EØS-tillegget til EU-tidende 2026",
+    "language": "nb-NO",
+    "note": "Legislative Body: EP, CONSIL\navailable-date: 2026-04-01",
+    "page": "904-916",
+    "shortTitle": "direktiv 2023/2668",
+    "title": "Europaparlaments- og rådsdirektiv (EU) 2023/2668 av 22. november 2023 om endring av direktiv 2009/148/EF om vern av arbeidstakere mot farer ved å være eksponert for asbest i arbeidet",
+    "title-short": "direktiv 2023/2668",
+    "URL": "https://www.efta.int/sites/default/files/media/documents/legal-texts/eea/other-legal-documents/translated-acts/norwegian/n32023L2668.pdf",
+    "volume": "21",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    },
+    "_folders": [
+      "EU-regelverk"
+    ],
+    "_dev": false
+  },
+  {
     "id": "X2U6TWXW",
     "type": "bill",
     "authority": "Stortinget",
