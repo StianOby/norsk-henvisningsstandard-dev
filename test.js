@@ -4,7 +4,7 @@
 // npm test and npm run update also write the [TEST] copy to test-style/, see export-test.js.
 const fs = require('fs');
 const path = require('path');
-const { LANGS, buildStyles, loadItems, renderAll } = require('./lib');
+const { ZOTERO_CITEPROC, LANGS, buildStyles, loadItems, renderAll } = require('./lib');
 const { writeTestStyle } = require('./export-test');
 
 const SNAPSHOTS = path.join(__dirname, 'snapshots');
@@ -51,6 +51,7 @@ function compare(expected, actual) {
   return diffs;
 }
 
+console.log(`citeproc-js from Zotero ${ZOTERO_CITEPROC}`);
 const { file: testStyle } = writeTestStyle();
 console.log(`wrote ${path.relative(__dirname, testStyle)}`);
 

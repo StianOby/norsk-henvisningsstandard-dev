@@ -1,4 +1,5 @@
-// Refreshes fixtures/ from the public Zotero group library and the CSL locales repo.
+// Refreshes fixtures/ from the public Zotero group library and the CSL locales repo, and vendor/ with
+// the citeproc-js copy from the latest Zotero release.
 const fs = require('fs');
 const path = require('path');
 
@@ -6,6 +7,8 @@ const GROUP = 'https://api.zotero.org/groups/4308632';
 const DEV_COLLECTION = 'Under utvikling';
 const LOCALES = ['nb-NO', 'nn-NO', 'en-US'];
 const FIXTURES = path.join(__dirname, 'fixtures');
+const VENDOR = path.join(__dirname, 'vendor');
+const CITEPROC_PATH = 'chrome/content/zotero/xpcom/citeproc.js';
 
 async function getAll(url) {
   const results = [];
@@ -20,6 +23,32 @@ async function getAll(url) {
     results.push(...page);
     if (results.length >= Number(res.headers.get('Total-Results'))) return results;
   }
+}
+
+// Zotero keeps its own copy of citeproc-js. This takes it from the latest release tag, such as 10.0.8,
+// leaving out betas and other tags. The tags API has no useful order, so it lists all of them.
+async function fetchZoteroCiteproc() {
+  const res = await fetch('https://api.github.com/repos/zotero/zotero/git/matching-refs/tags/');
+  if (!res.ok) throw new Error(`${res.status} from the GitHub tags API`);
+  const versions = (await res.json())
+    .map((r) => r.ref.replace('refs/tags/', ''))
+    .filter((t) => /^\d+\.\d+\.\d+$/.test(t))
+    .sort((a, b) => {
+      const [x, y] = [a, b].map((t) => t.split('.').map(Number));
+      return x[0] - y[0] || x[1] - y[1] || x[2] - y[2];
+    });
+  const latest = versions.pop();
+  const url = `https://raw.githubusercontent.com/zotero/zotero/${latest}/${CITEPROC_PATH}`;
+  const file = await fetch(url);
+  if (!file.ok) throw new Error(`${file.status} from ${url}`);
+  fs.mkdirSync(VENDOR, { recursive: true });
+  const before = fs.existsSync(path.join(VENDOR, 'citeproc-zotero.json'))
+    ? JSON.parse(fs.readFileSync(path.join(VENDOR, 'citeproc-zotero.json'), 'utf8')).zotero
+    : null;
+  fs.writeFileSync(path.join(VENDOR, 'citeproc-zotero.js'), await file.text());
+  const info = { zotero: latest, path: CITEPROC_PATH };
+  fs.writeFileSync(path.join(VENDOR, 'citeproc-zotero.json'), `${JSON.stringify(info, null, 2)}\n`);
+  return before && before !== latest ? `${before} -> ${latest}` : latest;
 }
 
 async function main() {
@@ -58,6 +87,7 @@ async function main() {
 
   const dev = items.filter((i) => i._dev).length;
   console.log(`${items.length} items: ${items.length - dev} regression, ${dev} under development`);
+  console.log(`citeproc-js from Zotero ${await fetchZoteroCiteproc()}`);
 }
 
 main().catch((err) => {

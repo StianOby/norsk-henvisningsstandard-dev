@@ -2,7 +2,10 @@
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
-const CSL = require('citeproc');
+// Zotero's own copy of citeproc-js, unchanged, from the latest Zotero release. npm run fetch updates it.
+// It is a script that defines CSL rather than a module. See "CSL processor" in README.md.
+const ZOTERO_CITEPROC = JSON.parse(fs.readFileSync(path.join(__dirname, 'vendor', 'citeproc-zotero.json'), 'utf8')).zotero;
+const CSL = new Function(`${fs.readFileSync(path.join(__dirname, 'vendor', 'citeproc-zotero.js'), 'utf8')}\nreturn CSL;`)();
 
 const REPO = path.resolve(__dirname, '..');
 const BUILD = path.join(__dirname, 'build');
@@ -128,4 +131,4 @@ function renderAll(style, items, lang) {
   return out;
 }
 
-module.exports = { LANGS, buildStyles, loadItems, renderAll };
+module.exports = { ZOTERO_CITEPROC, LANGS, buildStyles, loadItems, renderAll };

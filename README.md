@@ -17,7 +17,7 @@ Run these from this folder, after `npm install`.
 | `npm test` | Builds both variants from the template and diffs, then compares every supported item with its snapshot. Fails on any difference. Also writes the test copy to `test-style/`. |
 | `npm run dev` | Prints how the "Under utvikling" items render. Never fails. |
 | `npm run update` | Accepts the current output as the new snapshots, and writes the test copy. |
-| `npm run fetch` | Refreshes `fixtures/` from the Zotero group library and the CSL locales repo. |
+| `npm run fetch` | Refreshes `fixtures/` from the Zotero group library and the CSL locales repo, and `vendor/` with the citeproc-js copy from the latest Zotero release. |
 | `npm run export` | Writes the test copy and copies it into Zotero's styles folder. |
 
 ## What is tested
@@ -68,14 +68,17 @@ Set `NORSK_TEMPLATE` to a file path to test a modified copy of the template.
 
 ## CSL processor
 
-The tests render with the `citeproc` package from npm, version 2.4.63 from 2023. Zotero doesn't use
-that package. It keeps its own copy of citeproc-js in `chrome/content/zotero/xpcom/citeproc.js` in the
-zotero/zotero repo, and updates it from Juris-M/citeproc-js now and then. So a fix merged in
-citeproc-js reaches Zotero only when Zotero updates that file, and reaches users only with the next
-Zotero release after that. The npm package hasn't been updated since 2023, so the tests can show bugs
-that Zotero has already fixed.
+Zotero doesn't use the `citeproc` package from npm, which hasn't been updated since 2023. It keeps its
+own copy of citeproc-js in `chrome/content/zotero/xpcom/citeproc.js` in the zotero/zotero repo, and
+updates it from Juris-M/citeproc-js now and then. So a fix merged in citeproc-js reaches Zotero only
+when Zotero updates that file, and reaches users only with the next Zotero release after that.
+
+The tests therefore render with Zotero's own copy, from the latest Zotero release. It is in
+`vendor/citeproc-zotero.js`, unchanged, and `vendor/citeproc-zotero.json` names the release.
+`npm run fetch` updates both. When a new release changes the processor, the next `npm test` shows what
+that changes in the output, and the commit shows which release it came from.
 
 Zotero commit d569d42 (2026-11-10, on `main`, after 10.0.8) pulled in Juris-M/citeproc-js#263, which fixes
-`locator="article-locator"`, and #272, which fixes the serial comma between treaty parties. The npm
-package has neither, so treaties and EU acts still show "art. 3" in the snapshots, while Zotero will print
+`locator="article-locator"`, and #272, which fixes the serial comma between treaty parties. Until a
+release includes it, treaties and EU acts show "art. 3" in the snapshots. After that they should show
 "artikkel 3".
