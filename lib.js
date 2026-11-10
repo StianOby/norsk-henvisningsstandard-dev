@@ -50,11 +50,14 @@ function loadItems() {
 // A fixed item cited between two citations, so the second one is "subsequent" rather than "ibid".
 const INTERVENING = { id: '__intervening__', type: 'book', title: 'Mellomliggende verk' };
 
+// Treaties are legislation in the fixtures, with "type: treaty" in note, which citeproc reads later.
+// EU acts are legislation with a page, which Norwegian laws never have. Both are cited by article.
 function locatorFor(item) {
+  const treaty = item.type === 'treaty' || /^type:\s*treaty\s*$/m.test(item.note || '');
   if (item.type === 'entry-encyclopedia' && item.archive) return { locator: '2, note 2', label: 'section' };
   if (item.type === 'legal_case') return { locator: '19', label: 'paragraph' };
+  if (treaty || (item.type === 'legislation' && item.page)) return { locator: '3', label: 'article-locator' };
   if (item.type === 'legislation' || item.type === 'regulation') return { locator: '3', label: 'section' };
-  if (item.type === 'treaty') return { locator: '3', label: 'article-locator' };
   return { locator: '3', label: 'page' };
 }
 
