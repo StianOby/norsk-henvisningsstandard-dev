@@ -18,7 +18,7 @@ Run these from this folder, after `npm install`.
 | `npm run dev` | Prints how the "Under utvikling" items render. Never fails. |
 | `npm run update` | Accepts the current output as the new snapshots. |
 | `npm run fetch` | Refreshes `fixtures/` from the Zotero group library and the CSL locales repo. |
-| `npm run export` | Builds a test copy of the short note variant in `export/`, for installing in Zotero. |
+| `npm run export` | Builds a test copy of the short note variant in `export/` and copies it into Zotero's styles folder. |
 
 ## What is tested
 
@@ -42,8 +42,12 @@ changed, not that the output is correct.
 ## Test copy for Zotero
 
 `npm run export` runs the real builder on the current template and short note diff, and writes
-`export/norsk-henvisningsstandard-for-rettsvitenskapelige-tekster-test.csl`. Open that file in
-Zotero to install it. Exporting again and reinstalling replaces the test copy, not the regular style.
+`export/norsk-henvisningsstandard-for-rettsvitenskapelige-tekster-test.csl`. It then copies that file
+to `~/Zotero/styles`, or to the folder in `ZOTERO_STYLES`. Restart Zotero to load it.
+
+The copy step writes only the test copy's own file. It stops without writing if that file holds a
+style with another ID, or if any other style has the test copy's ID or title. It then compares hashes of
+every file in the folder, and fails if anything else changed.
 
 The copy differs from the built style in three lines only, and the script fails if it finds more:
 

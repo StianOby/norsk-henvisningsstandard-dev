@@ -1,6 +1,9 @@
-// Exports a test copy of the short note variant that installs next to the regular style in Zotero.
+// Exports a test copy of the short note variant and copies it into Zotero's styles folder,
+// where it sits next to the regular style.
 // The copy is the real builder's output, with only the three lines in EDITS changed.
+const crypto = require('crypto');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const { spawnSync } = require('child_process');
 
@@ -10,6 +13,8 @@ const TMP = path.join(EXPORT, 'tmp');
 const BASE = 'norsk-henvisningsstandard-for-rettsvitenskapelige-tekster';
 const ID = `http://www.zotero.org/styles/${BASE}`;
 const TEST_ID = `${ID}-test`;
+// ZOTERO_STYLES overrides the folder, for trying this out on a copy.
+const STYLES = process.env.ZOTERO_STYLES || path.join(os.homedir(), 'Zotero', 'styles');
 
 // Zotero overwrites an installed style that has the same ID, file name (the last part of the ID)
 // or title. It also sends the self link to its style repository, so that has to change as well.
@@ -57,7 +62,46 @@ function makeTestCopy(style) {
   return copy;
 }
 
+function field(xml, tag) {
+  const match = xml.match(new RegExp(`<${tag}>(.*?)</${tag}>`));
+  return match && match[1];
+}
+
+// Maps every file in the folder and its subfolders, such as hidden/, to a hash of its content.
+function hashes(dir) {
+  const files = fs.readdirSync(dir, { recursive: true })
+    .map((f) => path.join(dir, f))
+    .filter((f) => fs.statSync(f).isFile());
+  return Object.fromEntries(
+    files.map((f) => [f, crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex')]),
+  );
+}
+
+// Writes only the test copy's own file. It refuses if that file holds another style, or if
+// another file has the test copy's ID or title, and then proves that nothing else changed.
+function copyToZotero(copy) {
+  if (!fs.existsSync(STYLES)) throw new Error(`Zotero styles folder not found: ${STYLES}`);
+  const target = path.join(STYLES, `${BASE}-test.csl`);
+  const before = hashes(STYLES);
+  for (const file of Object.keys(before).filter((f) => f.toLowerCase().endsWith('.csl'))) {
+    const xml = fs.readFileSync(file, 'utf8');
+    const sameId = field(xml, 'id') === TEST_ID;
+    const sameTitle = field(xml, 'title') === field(copy, 'title');
+    if (file === target && !sameId) throw new Error(`Not overwriting, ${file} is another style: ${field(xml, 'id')}`);
+    if (file !== target && (sameId || sameTitle)) throw new Error(`Not copying, ${file} has the same ID or title`);
+  }
+  fs.writeFileSync(target, copy);
+  const after = hashes(STYLES);
+  const changed = [...new Set([...Object.keys(before), ...Object.keys(after)])]
+    .filter((f) => f !== target && before[f] !== after[f]);
+  if (changed.length) throw new Error(`Other files changed: ${changed.join(', ')}`);
+  return { target, others: Object.keys(after).length - 1 };
+}
+
 const file = path.join(EXPORT, `${BASE}-test.csl`);
+const copy = makeTestCopy(buildShortNote());
 fs.mkdirSync(EXPORT, { recursive: true });
-fs.writeFileSync(file, makeTestCopy(buildShortNote()));
+fs.writeFileSync(file, copy);
 console.log(`Exported ${file}`);
+const { target, others } = copyToZotero(copy);
+console.log(`Copied to ${target} (${others} other files unchanged). Restart Zotero to load it.`);
