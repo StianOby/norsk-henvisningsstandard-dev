@@ -1,7 +1,7 @@
 {
   "name": "norsk-henvisningsstandard-dev",
   "private": true,
-  "description": "Local regression tests for the Norsk henvisningsstandard CSL styles",
+  "description": "Regression tests and a test copy of the Norsk henvisningsstandard CSL styles",
   "scripts": {
     "fetch": "node fetch.js",
     "test": "node test.js",

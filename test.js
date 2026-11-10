@@ -1,9 +1,11 @@
 // npm test: compare supported items with snapshots. Fails on any difference.
 // npm run update: accept the current output as the new snapshots.
 // npm run dev: print how the Under utvikling items render. Never fails.
+// npm test and npm run update also write the [TEST] copy to test-style/, see export-test.js.
 const fs = require('fs');
 const path = require('path');
 const { LANGS, buildStyles, loadItems, renderAll } = require('./lib');
+const { writeTestStyle } = require('./export-test');
 
 const SNAPSHOTS = path.join(__dirname, 'snapshots');
 const mode = process.argv[2];
@@ -48,6 +50,9 @@ function compare(expected, actual) {
   }
   return diffs;
 }
+
+const { file: testStyle } = writeTestStyle();
+console.log(`wrote ${path.relative(__dirname, testStyle)}`);
 
 fs.mkdirSync(SNAPSHOTS, { recursive: true });
 let failures = 0;

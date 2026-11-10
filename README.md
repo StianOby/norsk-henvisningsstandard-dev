@@ -1,8 +1,8 @@
-# Norsk henvisningsstandard: local tests
+# Norsk henvisningsstandard: development repo
 
-Regression tests for the two Norsk henvisningsstandard variants. The folder is listed in the
+Regression tests and a test copy of the style, for the two Norsk henvisningsstandard variants. The folder is listed in the
 parent repo's `.git/info/exclude`, so it never shows up in `git status` or in a PR. It has its
-own git repo, which gives snapshot changes a history.
+own git repo, which gives snapshot changes and the test copy a history.
 
 To set it up, clone this repo into the root of a style-variant-builder checkout, as
 `norsk-henvisningsstandard-dev/`, because the scripts read the template and diffs from the parent
@@ -14,11 +14,11 @@ Run these from this folder, after `npm install`.
 
 | Command | What it does |
 | --- | --- |
-| `npm test` | Builds both variants from the template and diffs, then compares every supported item with its snapshot. Fails on any difference. |
+| `npm test` | Builds both variants from the template and diffs, then compares every supported item with its snapshot. Fails on any difference. Also writes the test copy to `test-style/`. |
 | `npm run dev` | Prints how the "Under utvikling" items render. Never fails. |
-| `npm run update` | Accepts the current output as the new snapshots. |
+| `npm run update` | Accepts the current output as the new snapshots, and writes the test copy. |
 | `npm run fetch` | Refreshes `fixtures/` from the Zotero group library and the CSL locales repo. |
-| `npm run export` | Builds a test copy of the short note variant in `export/` and copies it into Zotero's styles folder. |
+| `npm run export` | Writes the test copy and copies it into Zotero's styles folder. |
 
 ## What is tested
 
@@ -34,16 +34,21 @@ To promote an item when support is ready, move it to another folder in Zotero, t
 
 1. Change the template or diffs.
 2. Run `npm test`. Any difference it lists is either a regression or an intended change.
-3. If the change is intended, run `npm run update` and commit the snapshots in this folder.
+3. If the change is intended, run `npm run update` and commit the snapshots and `test-style/` in this folder.
 
 Snapshots record what the style currently does, not what the guide requires. A pass means nothing
 changed, not that the output is correct.
 
 ## Test copy for Zotero
 
-`npm run export` runs the real builder on the current template and short note diff, and writes
-`export/norsk-henvisningsstandard-for-rettsvitenskapelige-tekster-test.csl`. It then copies that file
-to `~/Zotero/styles`, or to the folder in `ZOTERO_STYLES`. Restart Zotero to load it.
+`test-style/norsk-henvisningsstandard-for-rettsvitenskapelige-tekster-test.csl` is a test copy of the
+short note variant, built by the real builder from the current template and short note diff. `npm test`,
+`npm run update` and `npm run export` all rewrite it, so the committed copy matches the committed
+snapshots. To install it, add the file in Zotero's Cite settings with the + button, or run
+`npm run export`.
+
+`npm run export` also copies the file to `~/Zotero/styles`, or to the folder in `ZOTERO_STYLES`.
+Restart Zotero to load it.
 
 The copy step writes only the test copy's own file. It stops without writing if that file holds a
 style with another ID, or if any other style has the test copy's ID or title. It then compares hashes of

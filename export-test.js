@@ -1,5 +1,6 @@
-// Exports a test copy of the short note variant and copies it into Zotero's styles folder,
-// where it sits next to the regular style.
+// Writes the [TEST] copy of the short note variant to test-style/, which is tracked, so the repo
+// always holds a copy of the current style. npm test and npm run update call writeTestStyle.
+// npm run export also copies it into Zotero's styles folder, where it sits next to the regular style.
 // The copy is the real builder's output, with only the three lines in EDITS changed.
 const crypto = require('crypto');
 const fs = require('fs');
@@ -8,8 +9,8 @@ const path = require('path');
 const { spawnSync } = require('child_process');
 
 const REPO = path.resolve(__dirname, '..');
-const EXPORT = path.join(__dirname, 'export');
-const TMP = path.join(EXPORT, 'tmp');
+const TEST_STYLE = path.join(__dirname, 'test-style');
+const TMP = path.join(__dirname, 'build', 'export-tmp');
 const BASE = 'norsk-henvisningsstandard-for-rettsvitenskapelige-tekster';
 const ID = `http://www.zotero.org/styles/${BASE}`;
 const TEST_ID = `${ID}-test`;
@@ -98,10 +99,19 @@ function copyToZotero(copy) {
   return { target, others: Object.keys(after).length - 1 };
 }
 
-const file = path.join(EXPORT, `${BASE}-test.csl`);
-const copy = makeTestCopy(buildShortNote());
-fs.mkdirSync(EXPORT, { recursive: true });
-fs.writeFileSync(file, copy);
-console.log(`Exported ${file}`);
-const { target, others } = copyToZotero(copy);
-console.log(`Copied to ${target} (${others} other files unchanged). Restart Zotero to load it.`);
+function writeTestStyle() {
+  const file = path.join(TEST_STYLE, `${BASE}-test.csl`);
+  const copy = makeTestCopy(buildShortNote());
+  fs.mkdirSync(TEST_STYLE, { recursive: true });
+  fs.writeFileSync(file, copy);
+  return { file, copy };
+}
+
+module.exports = { writeTestStyle };
+
+if (require.main === module) {
+  const { file, copy } = writeTestStyle();
+  console.log(`Wrote ${file}`);
+  const { target, others } = copyToZotero(copy);
+  console.log(`Copied to ${target} (${others} other files unchanged). Restart Zotero to load it.`);
+}
