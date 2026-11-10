@@ -65,3 +65,17 @@ different from the regular style. A document set to the test copy stores the tes
 to the regular style before removing the test copy from Zotero.
 
 Set `NORSK_TEMPLATE` to a file path to test a modified copy of the template.
+
+## CSL processor
+
+The tests render with the `citeproc` package from npm, version 2.4.63 from 2023. Zotero doesn't use
+that package. It keeps its own copy of citeproc-js in `chrome/content/zotero/xpcom/citeproc.js` in the
+zotero/zotero repo, and updates it from Juris-M/citeproc-js now and then. So a fix merged in
+citeproc-js reaches Zotero only when Zotero updates that file, and reaches users only with the next
+Zotero release after that. The npm package hasn't been updated since 2023, so the tests can show bugs
+that Zotero has already fixed.
+
+Zotero commit d569d42 (2026-11-10, on `main`, after 10.0.8) pulled in Juris-M/citeproc-js#263, which fixes
+`locator="article-locator"`, and #272, which fixes the serial comma between treaty parties. The npm
+package has neither, so treaties and EU acts still show "art. 3" in the snapshots, while Zotero will print
+"artikkel 3".
