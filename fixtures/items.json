@@ -1219,7 +1219,7 @@
   {
     "id": "HENH9B3B",
     "type": "legislation",
-    "container-title": "English Special Edition: Series I Volume 1968(II)",
+    "container-title": "OJ English Special Edition: Series I Volume 1968(II)",
     "language": "en",
     "note": "Legislative Body: CONSIL\navailable-date: 1968-10-19",
     "page": "475-484",
@@ -1320,7 +1320,7 @@
     "type": "legislation",
     "container-title": "OJ L",
     "language": "en",
-    "note": "type: treaty\navailable-date: 2026-02-18",
+    "note": "type: treaty\navailable-date: 2026-02-18\nevent-date: 2026-03-27",
     "page": "2026/757",
     "title": "Agreement on the interpretation and application of the Energy Charter Treaty",
     "URL": "http://data.europa.eu/eli/agree_internation/2026/757/oj",
