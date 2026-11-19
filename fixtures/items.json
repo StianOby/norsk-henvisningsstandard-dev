@@ -1579,9 +1579,9 @@
       ]
     },
     "_folders": [
-      "Under utvikling"
+      "TV/Radio/Podcast"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "KJEHLEZ4",
@@ -1644,6 +1644,84 @@
       "International rettspraksis - p.t. ikke mulig å støtte"
     ],
     "_dev": true
+  },
+  {
+    "id": "LBWP982W",
+    "type": "broadcast",
+    "abstract": "Direktesendt debattprogram med Steinar Suvatne.",
+    "container-title": "Debatten",
+    "dimensions": "53:55",
+    "language": "nb-NO",
+    "publisher": "NRK1",
+    "source": "tv.nrk.no",
+    "title": "EU straffer Norge",
+    "URL": "https://tv.nrk.no/serie/debatten/sesong/202511/episode/NNFA51112025",
+    "host": [
+      {
+        "family": "Solvang",
+        "given": "Fredrik"
+      }
+    ],
+    "contributor": [
+      {
+        "family": "Eide",
+        "given": "Espen Barth"
+      },
+      {
+        "family": "Søreide",
+        "given": "Ine Eriksen"
+      },
+      {
+        "family": "Vedum",
+        "given": "Trygve Slagsvold"
+      },
+      {
+        "family": "Limi",
+        "given": "Hans Andreas"
+      },
+      {
+        "family": "Martinussen",
+        "given": "Marie Sneve"
+      },
+      {
+        "family": "Almlid",
+        "given": "Ole Erik"
+      },
+      {
+        "family": "Bekkedal",
+        "given": "Tarjei"
+      },
+      {
+        "family": "Grubben-Strømnes",
+        "given": "Inge"
+      },
+      {
+        "family": "Wintervoll",
+        "given": "Geir-Henning"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    },
+    "_folders": [
+      "TV/Radio/Podcast"
+    ],
+    "_dev": false
   },
   {
     "id": "LJ2SKGGL",
@@ -2545,9 +2623,9 @@
       ]
     },
     "_folders": [
-      "Under utvikling"
+      "TV/Radio/Podcast"
     ],
-    "_dev": true
+    "_dev": false
   },
   {
     "id": "WD8F9UTL",
@@ -2988,8 +3066,8 @@
       ]
     },
     "_folders": [
-      "Under utvikling"
+      "TV/Radio/Podcast"
     ],
-    "_dev": true
+    "_dev": false
   }
 ]
